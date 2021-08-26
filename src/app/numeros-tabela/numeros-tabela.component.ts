@@ -14,7 +14,7 @@ export class NumerosTabelaComponent implements OnInit {
   getRandomNumbers(){
     let list: number[] = [];
     for(let i = 1; i<=5; i++){
-      list.push(Math.round(Math.random() * 100));
+      list.push(Math.round(Math.random() * 99));
     }
     return list;
   }
